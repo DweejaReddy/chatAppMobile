@@ -8,7 +8,7 @@ import Login from './screens/Login';
 import Signup from './screens/Signup';
 import Chat from './screens/Chat';
 import Home from './screens/Home';
-
+import 'react-native-gesture-handler';
 const Stack = createStackNavigator();
 const AuthenticatedUserContext = createContext({});
 
